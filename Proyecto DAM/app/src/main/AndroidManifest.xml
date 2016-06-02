@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.juanaj.albedroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBEBG8qHsAe9_jfCX0WDBdu_iFECdzFang"/> -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAqXJ05RliQ99GTYvR5yqhDOrs07wG2Lj4" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <fragment
+            android:name=".json.MonumentoJson"
+            android:label="@string/title_activity_aparca_json"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".json.Mapajson"
+            android:label="@string/title_activity_mapajson" />
+
+        <fragment
+            android:name=".bbdd.ListaPuntos"
+            android:label="@string/title_activity_lista_puntos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <fragment
+            android:name=".bbdd.NuevoPunto"
+            android:label="@string/title_activity_nuevo_punto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <fragment
+            android:name=".comentarios.ListaComentarios"
+            android:label="@string/title_activity_lista_comentarios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <fragment
+            android:name=".comentarios.EscribirComentarios"
+            android:label="@string/title_activity_escribir_comentarios"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".AcercadeActivity"
+            android:label="@string/title_activity_acercade"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PreferenciasActivity" />
+    </application>
+
+</manifest>

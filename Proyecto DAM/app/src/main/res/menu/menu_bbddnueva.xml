@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.juanaj.albedroid.MainActivity">
+    <item
+        android:id="@+id/agregarRBB"
+        android:orderInCategory="100"
+        android:title="@string/menu_bbddnueva_nueva"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/verlistaRBB"
+        android:orderInCategory="100"
+        android:title="@string/menu_bbddnueva_ver"
+        app:showAsAction="never" />
+</menu>

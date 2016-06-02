@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.juanaj.albedroid.comentarios.EscribirComentarios"
+    tools:showIn="@layout/activity_escribir_comentarios">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNombreC"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:hint="@string/hint_nombre_comentario" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etComentarioC"
+        android:hint="@string/hint_comentario_comentario"
+        android:layout_below="@+id/etNombreC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etValoracionC"
+        android:hint="@string/hint_valoracion_comentario"
+        android:layout_below="@+id/etComentarioC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp" />
+
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibVolverC"
+        android:src="@mipmap/ic_home_red"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/etValoracionC"
+        android:layout_toEndOf="@+id/ibGuardarC"
+        android:layout_marginStart="44dp" />
+
+    <ImageButton
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibGuardarC"
+        android:src="@mipmap/ic_save_red_si"
+        android:layout_alignTop="@+id/ibVolverC"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="100dp" />
+
+</RelativeLayout>

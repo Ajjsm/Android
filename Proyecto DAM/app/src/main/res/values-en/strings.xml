@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Albedroid</string>
+    <string name="action_settings">About...</string>
+    <string name="title_activity_aparca_json">Zaragoza interest points</string>
+    <string name="title_activity_mapajson">Map</string>
+    <string name="title_activity_lista_puntos">Point List</string>
+    <string name="title_activity_nuevo_punto">New point</string>
+    <string name="title_activity_lista_comentarios">List comments</string>
+    <string name="title_activity_escribir_comentarios">Write commentary</string>
+
+    //Escribir comentarios
+    <string name="hint_nombre_comentario">Name: </string>
+    <string name="hint_comentario_comentario">Commentary:</string>
+    <string name="hint_valoracion_comentario">Score: (1-10)</string>
+    <string name="boton_comentario">Save:</string>
+
+    //Main
+    <string name="main_json">See Zaragoza list points</string>
+    <string name="main_bbdd">See or add points to your data base</string>
+    <string name="main_escribir_comentario">Write commentary</string>
+    <string name="main_leer_comentario">Read commentary</string>
+
+    //Nuevo punto
+    <string name="nuevo_punto_nombre">Name: </string>
+    <string name="nuevo_punto_calle">Street: </string>
+    <string name="nuevo_punto_descripcion">Description: </string>
+    <string name="nuevo_punto_ciudad">City: </string>
+    <string name="nuevo_punto_agregar">Add</string>
+    <string name="nuevo_punto_ver_lista">See list</string>
+    <string name="nuevo_punto_modificar">Change</string>
+    <string name="nuevo_punto_borrar_base">Delete base</string>
+
+    //toast
+    <string name="json_toast_exito">Successfully downloaded data</string>
+    <string name="json_toast_error">Error downloading data</string>
+
+    //bbdd
+    <string name="bbdd_lista_eliminado">Deleted</string>
+    <string name="bbdd_lista_modificado">Modified</string>
+    <string name="bbdd_nuevo_modificado">Point modified</string>
+    <string name="bbdd_nuevo_nuevo">New point agree</string>
+
+    //comentarios
+    <string name="comentarios_escribir_enviado">Message sent</string>
+    <string name="comentarios_cargando_opiniones">Loading reviews</string>
+
+    //menus
+    <string name="menu_bbddlista_eliminar">Delete</string>
+    <string name="menu_bbddlista_modificar">Modify</string>
+
+    <string name="menu_bbddnueva_nueva">New point</string>
+    <string name="menu_bbddnueva_ver">See list</string>
+
+    <string name="menu_contextbbdd_eliminar">Delete</string>
+    <string name="menu_contextbbdd_modificar">Modify</string>
+
+    <string name="menu_jlist_contx">About...</string>
+    <string name="title_activity_acerca">AcercaActivity</string>
+    <string name="title_activity_acercade">AcercadeActivity</string>
+
+    <string name="acerca_de_texto">Application to find points of interest in Zaragoza , can find them through a list to see its location on Google Maps, also allows for personal use insert new items in a database , in addition to sharing our valuation on these in an external server.</string>
+
+</resources>

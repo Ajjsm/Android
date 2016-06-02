@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Albedroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_aparca_json">Puntos de interes Zaragoza</string>
+    <string name="title_activity_mapajson">Map</string>
+    <string name="title_activity_lista_puntos">Lista puntos</string>
+    <string name="title_activity_nuevo_punto">Nuevo punto</string>
+    <string name="title_activity_lista_comentarios">Lista comentarios</string>
+    <string name="title_activity_escribir_comentarios">Escribir comentarios</string>
+
+    //Escribir comentarios
+    <string name="hint_nombre_comentario">Nombre: </string>
+    <string name="hint_comentario_comentario">Comentario:</string>
+    <string name="hint_valoracion_comentario">Valoracion: (1-10)</string>
+    <string name="boton_comentario">Guardar:</string>
+
+    //Main
+    <string name="main_json">Ver lista de puntos en Zaragoza</string>
+    <string name="main_bbdd">Consulte o agrege puntos a su base</string>
+    <string name="main_escribir_comentario">Escribir comentario</string>
+    <string name="main_leer_comentario">Leer comentario</string>
+
+    //Nuevo punto
+    <string name="nuevo_punto_nombre">Nombre: </string>
+    <string name="nuevo_punto_calle">Calle: </string>
+    <string name="nuevo_punto_descripcion">Descripcion: </string>
+    <string name="nuevo_punto_ciudad">Ciudad: </string>
+    <string name="nuevo_punto_agregar">Agregar</string>
+    <string name="nuevo_punto_ver_lista">Ver lista</string>
+    <string name="nuevo_punto_modificar">Modificar</string>
+    <string name="nuevo_punto_borrar_base">Borrar base</string>
+
+    //toast
+    <string name="json_toast_exito">Datos descargados con exito</string>
+    <string name="json_toast_error">Error descargando datos</string>
+
+    //bbdd
+    <string name="bbdd_lista_eliminado">Eliminado</string>
+    <string name="bbdd_lista_modificado">Modificado</string>
+    <string name="bbdd_nuevo_modificado">Punto modificado</string>
+    <string name="bbdd_nuevo_nuevo">Nuevo punto agregado</string>
+
+    //comentarios
+    <string name="comentarios_escribir_enviado">Mensaje enviado</string>
+    <string name="comentarios_cargando_opiniones">Cargando opiniones</string>
+
+    //menus
+    <string name="menu_bbddlista_eliminar">Eliminar</string>
+    <string name="menu_bbddlista_modificar">Modificar</string>
+
+    <string name="menu_bbddnueva_nueva">Nueva ruta</string>
+    <string name="menu_bbddnueva_ver">Ver lista</string>
+
+    <string name="menu_contextbbdd_eliminar">Eliminar</string>
+    <string name="menu_contextbbdd_modificar">Modificar</string>
+
+    <string name="menu_jlist_contx">Acerca de...</string>
+    <string name="title_activity_acerca">AcercaActivity</string>
+    <string name="title_activity_acercade">AcercadeActivity</string>
+
+    <string name="acerca_de_texto">Aplicacion para encontrar puntos de interes en Zaragoza, permite localizarlos mediante una lista para ver su situacion en Google Maps, tambien permite para uso personal insertar puntos nuevos en una base de datos, ademas de compartir nuestra valoracion sobre estos en un servidor externo.</string>
+    <string name="title_activity_preferencias">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>
