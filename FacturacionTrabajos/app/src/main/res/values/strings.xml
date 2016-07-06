@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Realizar facturas</string>
+
+    <string name="navigation_drawer_open">Abrir panel de navegación</string>
+    <string name="navigation_drawer_close">Cerrar panel de navegación</string>
+
+    <string name="action_preferencias">Preferencias</string>
+</resources>

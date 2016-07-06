@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/ic_menu_lista"
+            android:title="Lista de clientes" />
+        <item
+            android:id="@+id/nav_factura"
+            android:icon="@drawable/ic_menu_factura"
+            android:title="Crear factura" />
+        <item
+            android:id="@+id/nav_opciones"
+            android:icon="@drawable/ic_menu_opciones"
+            android:title="Opciones" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_compartir"
+                android:icon="@drawable/ic_menu_compartir"
+                android:title="Compartir" />
+            <item
+                android:id="@+id/nav_contactar"
+                android:icon="@drawable/ic_menu_contactar"
+                android:title="Contactar" />
+        </menu>
+    </item>
+
+</menu>
